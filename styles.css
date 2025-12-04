@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#cronTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#cronTable th,
+#cronTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#cronTable th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#cronTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#cronTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+#cronTable th:first-child,
+#cronTable td:first-child {
+    width: 150px;
+    white-space: nowrap;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f44336;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+    z-index: 1000;
+    opacity: 0.9;
+}
